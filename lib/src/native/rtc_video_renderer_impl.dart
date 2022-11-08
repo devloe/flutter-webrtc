@@ -150,4 +150,7 @@ class RTCVideoRenderer extends ValueNotifier<RTCVideoValue>
     }
     return true;
   }
+    
+  @override
+  Function? onFirstFrameRendered;
 }
